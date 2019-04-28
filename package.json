@@ -1,21 +1,22 @@
 {
-  "name": "elix.re-upload",
+  "name": "shadowscythe",
   "version": "1.0.0",
   "description": "A light script to upload images automatically to elixi.re servers",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node main.js",
+    "startpm2": "pm2 sart --name 'ShadowScythe' main.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/VoidNulll/elixire-upload.git"
+    "url": "git+https://github.com/VoidNulll/ShadowsScythe.git"
   },
   "author": "Null",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/VoidNulll/elixire-upload/issues"
+    "url": "https://github.com/VoidNulll/ShadowsScythe/issues"
   },
-  "homepage": "https://github.com/VoidNulll/elixire-upload#readme",
+  "homepage": "https://github.com/VoidNulll/ShadowsScythe#readme",
   "dependencies": {
     "chokidar": "^2.1.5",
     "clipboardy": "^2.0.0",
