@@ -17,7 +17,7 @@ Finally run the app. `npm start` if you are not using pm2, or `npm run pm2start`
 key (key type) - definition
 
 - token (String) - The token used to authenticate with elixi.re
-- path (String) - The path to listen to file creations in. Must be absolute!
+- path (String or Array) - The path(s) to listen to file creations in. Must be absolute!
 - useSubDirs (Boolean) - Whether or not to use subdirectories. If ommited will default to false (dont use subdirs.)
 
 # This is not a official elixi.re app.
