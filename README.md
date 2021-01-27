@@ -4,7 +4,9 @@ An auto uploader for elixi.re.
 
 Automatically uploads files created in a directory to elixi.re and copies the url returned.
 
-# Set up
+## This project is archieved, do not use it.
+
+### Set up
 
 Install dependencies. `yarn install` or `npm install` will work.
 
@@ -12,7 +14,7 @@ Then set your config up. See keys below.
 
 Finally run the app. `npm start` if you are not using pm2, or `npm run pm2start` if you want to.
 
-# Config keys
+### Config keys
 
 key (key type) - definition
 
